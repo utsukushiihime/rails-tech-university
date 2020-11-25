@@ -1,1 +1,9 @@
 @import "bootstrap";
+
+a {
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline !important;
+}
