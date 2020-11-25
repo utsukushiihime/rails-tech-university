@@ -14,7 +14,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-          <a class="navbar-brand" href="#">Tech University</a>
+          <a class="navbar-brand text-info" href="#">Tech University</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -39,9 +39,45 @@
         <%= yield %>
       </div>
     </main>
-    <footer class="footer mt-auto py-3 bg-dark fixed-bottom">
+    <footer class="pt-4 pt-md-5 fixed-bottom bg-dark">
       <div class="container">
-        <span class="text-muted">&copy; Copyright Tech University 2020 - Present. All Rights Reserved.</span>
+        <div class="row">
+          <div class="col-12 col-md">
+            <!-- <img class="mb-2" src="./images/logo-white.svg" alt="" width="24" height="24">-->
+            <h4 class="text-info mb-0">Tech University</h4>
+            <small class="text-muted">The future of dev training.</small>
+            <small class="d-block my-3 text-muted">© 2020-Present</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Cool stuff</a></li>
+              <li><a class="text-muted" href="#">Random feature</a></li>
+              <li><a class="text-muted" href="#">Team feature</a></li>
+              <li><a class="text-muted" href="#">Stuff for developers</a></li>
+              <li><a class="text-muted" href="#">Another one</a></li>
+              <li><a class="text-muted" href="#">Last time</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Resource</a></li>
+              <li><a class="text-muted" href="#">Resource name</a></li>
+              <li><a class="text-muted" href="#">Another resource</a></li>
+              <li><a class="text-muted" href="#">Final resource</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Team</a></li>
+              <li><a class="text-muted" href="#">Locations</a></li>
+              <li><a class="text-muted" href="#">Privacy</a></li>
+              <li><a class="text-muted" href="#">Terms</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
