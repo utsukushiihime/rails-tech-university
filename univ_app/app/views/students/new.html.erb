@@ -5,3 +5,16 @@
     </h3>
   </div>
 </div>
+
+<div class="form-row align-items-center mx-auto" style="width: 300px;">
+  <div class="col-auto">
+    <%= form_with model: @student, class: "form-group" do |f| %>
+      <%= f.label :name %>
+      <%= f.text_field :name, placeholder: "Enter your full name", autofocus: true, class: "form-control mb-3" %>
+
+      <%= f.label :email %>
+      <%= f.text_field :email, placeholder: "Enter your email", autofocus: true, class: "form-control" %>
+      <%= f.submit "Submit", class: "btn btn-info mt-3" %>
+    <% end %>
+  </div>
+</div>
